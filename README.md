@@ -1,2 +1,1 @@
-# License Manager
 # cloud-demo
