@@ -11,3 +11,5 @@
 *.sock
 *.orig
 *.lock
+.idea
+.cache

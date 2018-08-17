@@ -1,4 +1,4 @@
-from api import license
+from api import license, compute_api
 from apistar import Route
 
 license_routes = [
@@ -7,4 +7,6 @@ license_routes = [
     Route('/license', method='PATCH', handler=license.patch_license),
     Route('/license', method='DELETE', handler=license.delete_license),
     Route('/license', method='PUT', handler=license.put_license),
+
+    Route('/nodes', method='GET', handler=compute_api.list_nodes)
 ]
